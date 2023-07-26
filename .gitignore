@@ -1,0 +1,74 @@
+# macOS system files
+.DS_Store
+
+# Flutter build and cache files
+/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-version
+.packages
+
+# IDE files
+*.iml
+*.iws
+*.ipr
+.idea/
+.vscode/
+
+
+# Flutter iOS build and Pod files
+ios/Pods/
+ios/Podfile.lock
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/FlutterPluginRegistrant/Classes/
+ios/Flutter/FlutterPluginRegistrant/GeneratedPluginRegistrant.*
+
+# Flutter Android build files
+android/app/debug.keystore
+android/app/release.keystore
+android/gradle.properties
+android/local.properties
+android/*.iml
+android/.gradle/
+android/build/
+android/gradle/
+android/gradlew
+android/gradlew.bat
+
+# macOS Flutter desktop build files
+macos/Flutter/Flutter.xcframework
+macos/Flutter/Flutter.podspec
+macos/Flutter/FlutterMacOS.framework/
+macos/Flutter/FlutterMacOS.framework/Versions/Current/
+macos/Flutter/FlutterMacOS.framework/Versions/Current/Headers
+macos/Flutter/FlutterMacOS.framework/Versions/Current/FlutterMacOS
+
+# Web build files
+web/flutter_service_worker.js
+web/packages/flutter_web.js
+web/packages/flutter_web.dart
+web/packages/flutter_web/
+web/packages/flutter_web-0.0.0.0/
+web/packages/flutter_web-0.0.0.0/pubspec.lock
+
+# Android build artifacts
+android/app/build/
+android/gradle/wrapper/gradle-wrapper.jar
+android/gradle/caches/
+android/gradle/gradle_cache.lock
+android/gradle/gradle_cache.properties
+android/gradle/buildOutputCleanup/buildOutputCleanup.lock
+android/gradle/buildOutputCleanup/gradle-cache.properties
+
+# IntelliJ IDEA-specific
+*.iml
+*.iws
+*.idea/
+*.ipr
+
+# Visual Studio Code-specific
+.vscode/
