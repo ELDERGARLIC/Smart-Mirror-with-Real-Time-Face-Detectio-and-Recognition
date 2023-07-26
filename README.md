@@ -4,6 +4,11 @@
 
 In this project, we designed an intelligent mirror with real-time face detection and recognition capabilities, aiming to be used as a smart home device. The smart mirror provides a personalized user interface to every user standing in front of it. It can offer individualized functions such as personalized medication reminders for each user and other reminders for other household members. We implemented the basic module for face recognition and used it to design the mirror's operating system and the mobile application for communication with the mirror. Firebase database service was used for backend support. To accomplish this project, we utilized FaceNetMobile, TensorFlow Lite, Google ML Kit, and the Flutter Framework. The mirror's frame and body were designed with considerations for proper air circulation and cooling of internal components. Various hardware approaches were explored to enhance the functionality and performance of the smart mirror with real-time face detection and recognition capabilities.
 
+<p style="text-align: center;">
+<img width="405" alt="image" src="https://github.com/ELDERGARLIC/Smart-Mirror-with-Real-Time-Face-Detectio-and-Recognition/assets/52277462/9b5d4f06-1468-4edc-a7ce-124127f6c88d">
+</p>
+
+
 ## Features
 
 - Real-time face detection and recognition.
@@ -23,6 +28,11 @@ In this project, we designed an intelligent mirror with real-time face detection
 - Flutter Framework: Used to design and develop the mirror's operating system and mobile application.
 - Firebase: Employed for backend services and database integration.
 
+<p style="text-align: center;">
+<img width="833" alt="image" src="https://github.com/ELDERGARLIC/Smart-Mirror-with-Real-Time-Face-Detectio-and-Recognition/assets/52277462/fb5e5d1c-fb2e-424d-910d-81a99eb18f09">
+</p>
+
+
 ## Methodology
 
 The project consists of three main components:
@@ -39,6 +49,11 @@ The core module, implemented using FaceNet, TensorFlow Lite, Google ML Kit, and 
 2. When a face is detected, the Recognizer class processes the face using the FaceNet model for recognition.
 3. If the detected face matches a registered user's face, personalized information and reminders are displayed on the mirror's interface.
 4. The Smart Mirror Mobile Application can be used to manage user data, medication reminders, and other settings remotely through Firebase integration.
+
+<p style="text-align: center;">
+<img width="284" alt="image" src="https://github.com/ELDERGARLIC/Smart-Mirror-with-Real-Time-Face-Detectio-and-Recognition/assets/52277462/9db24941-c520-412d-9f04-282ca5317e1b">
+</p>
+
 
 ## More
 
